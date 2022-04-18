@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Encomendas</title>
+</head>
+<body>
+    <header>
+        <h1>Eduarda Manerich </h1>
+        <nav>
+            <a href="PaginaPessoal.html">Pagina Pessoal</a>
+            <a href="Artesanato.html">Artesanato</a>
+            <a href="encomenda.html" class="active">Encomenda</a>
+            <a href="instagram.html">Instagram</a>
+        </nav>
+    </header>
+    <h3>Dados para encomendas</h3>
+    <section>  
+        <section class="formulario">
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="Whatsapp">Número Whatsapp</label>
+            <input type="text" name="whatsapp" id="whatsapp">
+        </section>
+
+        <section class="formulario">
+             <label for="produto">Produto</label>
+             <select name="produto" id="produto">
+                 <option value="amigurumi">Amigurumi</option>
+                 <option value="bookcase">Bookcase</option>
+                 <option value="top">Top Cropped</option>
+                </select> 
+                
+                <label for="quantidade">Quantidade</label>
+                <input type="number" name="quantidade" id="quantidade">
+                <table>
+                    
+                    <label for="tamanho">Tamanhos</label>
+                    <td colspan="2">
+                        <input type="checkbox" name="p" id="p">
+                        <label for="Pequeno">Pequeno</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="m" id="m">
+                        <label for="medio">Médio</label>
+                    </td>
+                    <td>     
+                        <input type="checkbox" name="g" id="g">
+                        <label for="grande">Grande</label>
+                    </td>
+                </table>
+                
+                <label for="cor">Selecione a Cor</label>
+                <input type="color" name="cor" id="cor">
+                
+        </section>   
+        <section class="formulario">
+            <label for="prazo">Prazo</label>
+            <input type="date" name="dia" id="dia">
+            
+            <label for="obs">Observações</label>
+            <textarea></textarea>
+        </section>
+    </section>
+    <footer>
+        <h2 style="color: rgb(194, 255, 227);">Contatos:</h2>
+        <a href="https://www.instagram.com/maneriich_/" target="_blank">
+            <h2>@maneriich_</h2>
+        </a>
+        <a href="https://www.instagram.com/maneriichstudies/" target="_blank">
+            <h2>@maneriichstudies</h2>
+        </a>
+        <a href="https://www.instagram.com/maneriichartesanato/" target="_blank">
+            <h2>@maneriichartesanato</h2>
+        </a>
+    </footer>
+</body>
+</html>
